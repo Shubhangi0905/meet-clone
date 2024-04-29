@@ -1,0 +1,47 @@
+/* room.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .header {
+    background-color: #dadee7;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .meetingContainer {
+    width: 80%;
+    height: 80%;
+    max-width: 1200px;
+    max-height: 800px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: #ebe6e6;
+  }
+  /* room.css */
+
+
+
+
+/* Additional styles for making the meeting area attractive */
+
+  
+  /* Customize the styles based on your requirements */
+  

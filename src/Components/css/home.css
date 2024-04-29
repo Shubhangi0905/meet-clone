@@ -1,0 +1,61 @@
+/* home.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.brandDiv {
+  height: 100px;
+  background-color: #4CAF50;
+}
+
+.name {
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+}
+
+.homeBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.joinRoom {
+  font-size: 24px;
+  color: #333;
+}
+
+.inputID {
+  width: 300px;
+  padding: 10px;
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.inputID::placeholder {
+  color: #999;
+}
+
+.button {
+  width: 150px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
